@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nanz Restaurant and Catering | Restaurant in San Jose del Monte</title>
+  <meta name="description" content="Nanz Restaurant and Catering offers authentic Filipino cuisine and professional catering services in San Jose del Monte, Bulacan. Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon. Call +63 919 008 6876." />
+  <meta name="keywords" content="restaurant in San Jose del Monte, Filipino cuisine, catering services San Jose del Monte, Nanz Restaurant, Bulacan restaurant" />
+  <link rel="canonical" href="https://nanz-restaurant-and-catering.vikaph.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nanz Restaurant and Catering | Restaurant in San Jose del Monte" />
+  <meta property="og:description" content="Nanz Restaurant and Catering offers authentic Filipino cuisine and professional catering services in San Jose del Monte, Bulacan. Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon. Call +63 919 008 6876." />
+  <meta property="og:image" content="https://nanz-restaurant-and-catering.vikaph.com/images/hero.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://nanz-restaurant-and-catering.vikaph.com/" />
+  <meta property="og:locale" content="en_PH" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nanz Restaurant and Catering | Restaurant in San Jose del Monte" />
+  <meta name="twitter:description" content="Nanz Restaurant and Catering offers authentic Filipino cuisine and professional catering services in San Jose del Monte, Bulacan. Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon. Call +63 919 008 6876." />
+  <meta name="twitter:image" content="https://nanz-restaurant-and-catering.vikaph.com/images/hero.jpg" />
+  <meta name="geo.region" content="PH-BUL" />
+  <meta name="geo.placename" content="San Jose del Monte" />
+  <meta name="geo.position" content="14.8057526;121.035185" />
+  <meta name="ICBM" content="14.8057526,121.035185" />
+  
+  <!-- Tailwind CSS v3 -->
+  <script src="https://assets.vikaph.com/tailwindcss-3.4.17.js"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <!-- Brand CSS variables -->
+  <style>
+    :root {
+      /* Colors */
+      --color-primary:   #C0392B;  /* Main CTA, headings, logo — warm terracotta red for appetizing feel */
+      --color-secondary: #E67E22;  /* Accents, hover states — burnt orange for warmth */
+      --color-accent:    #F39C12;  /* Highlights, star ratings, badges — golden yellow for accents */
+      --color-dark:      #2C3E50;  /* Body text, footer bg — deep blue-gray for readability */
+      --color-light:     #FDF6F3;  /* Page bg, card bg — warm cream for inviting atmosphere */
+      --color-muted:     #95A5A6;  /* Secondary text, borders — neutral gray */
+
+      /* Typography */
+      --font-heading: 'Playfair Display', serif;
+      --font-body:    'Inter', sans-serif;
+      --font-accent:  'Dancing Script', cursive;
+
+      /* Spacing / Shape */
+      --radius-card: 1rem;
+      --radius-btn:  0.5rem;
+      --shadow-card: 0 4px 20px rgba(192, 57, 43, 0.1);
+    }
+
+    body { font-family: var(--font-body); }
+    h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+  </style>
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body class="bg-[var(--color-light)] text-[var(--color-dark)] overflow-x-hidden">
+
+  <!--
+    LAYOUT: Layout 1 — Immersive Visual
+    SELECTED BECAUSE: Restaurant business with food discovery audience — mood-first layout
+    VARIANT REFERENCE: gmaps-landing-page/references/layout-variations.md
+  -->
+
+  <!-- Preview Banner -->
+  <div id="preview-banner" class="fixed top-0 left-0 right-0 bg-[var(--color-dark)] text-white py-2 px-4 text-center z-50 text-sm flex items-center justify-between">
+    <div class="flex-1">
+      <span class="mr-2">🚧 Preview Website</span>
+      <a href="https://www.vikaph.com/" target="_blank" class="text-[var(--color-secondary)] hover:text-[var(--color-primary)] font-semibold underline">
+        Get your website at vikaph.com
+      </a>
+    </div>
+    <button id="close-banner" class="text-white/70 hover:text-white ml-4 text-xl leading-none">&times;</button>
+  </div>
+
+  <!-- Navigation -->
+  <header id="main-nav" class="fixed top-8 w-full z-40 transition-all duration-300 bg-transparent hover:bg-white/90 hover:backdrop-blur-sm hover:border-b hover:border-[var(--color-muted)]/20 hover:shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#home" class="font-heading text-2xl font-bold text-white hover:text-[var(--color-primary)] transition-colors">Nanz</a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#home" class="text-sm font-medium text-white hover:text-[var(--color-primary)] transition-colors">Home</a>
+        <a href="#about" class="text-sm font-medium text-white hover:text-[var(--color-primary)] transition-colors">About</a>
+        <a href="#menu" class="text-sm font-medium text-white hover:text-[var(--color-primary)] transition-colors">Menu</a>
+        <a href="#gallery" class="text-sm font-medium text-white hover:text-[var(--color-primary)] transition-colors">Gallery</a>
+        <a href="#contact" class="text-sm font-medium text-white hover:text-[var(--color-primary)] transition-colors">Contact</a>
+      </nav>
+      <a href="tel:+639190086876" class="bg-[var(--color-primary)] text-white px-6 py-2 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors text-sm">Call Now</a>
+    </div>
+  </header>
+
+  <main class="overflow-x-hidden">
+    <!-- Hero -->
+    <section id="home" class="relative min-h-screen flex items-end justify-center overflow-hidden pb-24">
+      <img src="images/hero.jpg" alt="Nanz Restaurant and Catering — Filipino cuisine restaurant in San Jose del Monte, Bulacan" class="absolute inset-0 w-full h-full object-cover z-0" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[var(--color-dark)]/90 via-[var(--color-dark)]/50 to-transparent z-10"></div>
+      <div class="relative z-20 max-w-4xl mx-auto px-6 text-center">
+        <div class="bg-black/40 rounded-2xl p-8 md:p-12 text-white">
+          <p class="font-accent text-[var(--color-accent)] text-xl mb-4">Authentic Filipino Cuisine</p>
+          <h1 class="font-heading text-5xl md:text-7xl font-bold leading-tight mb-6">Restaurant in San Jose del Monte</h1>
+          <p class="text-lg text-white/80 mb-4">★ - Based on - Google reviews</p>
+          <p class="text-base text-white/70 mb-8">Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon, San Jose del Monte, Bulacan</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:+639190086876" class="bg-[var(--color-primary)] text-white px-8 py-4 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors text-center">Call +63 919 008 6876</a>
+            <a href="https://maps.app.goo.gl/tfMdueTSjva4caoCA" target="_blank" rel="noopener" class="border-2 border-white text-white px-8 py-4 rounded-[var(--radius-btn)] hover:bg-white hover:text-[var(--color-dark)] transition-colors text-center">Get Directions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 md:py-28 px-4 bg-[var(--color-light)]">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-12 items-center">
+        <div class="md:col-span-3">
+          <p class="font-accent text-[var(--color-accent)] text-xl mb-2">Our Story</p>
+          <h2 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-dark)] mb-6">About Nanz Restaurant and Catering</h2>
+          <p class="text-base text-[var(--color-muted)] leading-relaxed mb-4">
+            Nanz Restaurant and Catering brings authentic Filipino cuisine to the heart of San Jose del Monte, Bulacan. We specialize in creating memorable dining experiences with our carefully crafted dishes that celebrate the rich flavors of Filipino cooking.
+          </p>
+          <p class="text-base text-[var(--color-muted)] leading-relaxed mb-6">
+            Whether you're looking for a satisfying meal at our restaurant or professional catering services for your special events, Nanz is committed to delivering delicious food made with love and the finest ingredients.
+          </p>
+          <a href="#contact" class="bg-[var(--color-primary)] text-white px-6 py-3 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors inline-block">Learn More</a>
+        </div>
+        <div class="md:col-span-2">
+          <img src="images/about.jpg" alt="Nanz Restaurant and Catering interior — warm and inviting Filipino restaurant ambiance" class="w-full h-auto rounded-[var(--radius-card)] shadow-[var(--shadow-card)]" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="py-20 md:py-28 px-4 bg-[var(--color-dark)]">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <p class="font-accent text-[var(--color-accent)] text-xl mb-2">Our Menu</p>
+          <h2 class="font-heading text-3xl md:text-4xl font-bold text-white">Signature Dishes</h2>
+        </div>
+        
+        <div class="flex gap-3 overflow-x-auto pb-4 border-b border-white/20 mb-8" id="menu-tabs">
+          <button class="menu-tab px-6 py-2 rounded-full bg-[var(--color-primary)] text-white whitespace-nowrap font-medium" data-tab="all">All</button>
+          <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="mains">Main Dishes</button>
+          <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="catering">Catering Packages</button>
+          <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="desserts">Desserts</button>
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="menu-items">
+          <div class="menu-item bg-white/10 backdrop-blur rounded-[var(--radius-card)] p-5 text-white" data-category="mains">
+            <h3 class="font-heading text-xl font-semibold mb-2">Adobo</h3>
+            <p class="text-white/70 text-sm mb-3">Classic Filipino braised meat dish</p>
+            <p class="text-[var(--color-accent)] font-bold">₱-</p>
+          </div>
+          <div class="menu-item bg-white/10 backdrop-blur rounded-[var(--radius-card)] p-5 text-white" data-category="mains">
+            <h3 class="font-heading text-xl font-semibold mb-2">Sinigang</h3>
+            <p class="text-white/70 text-sm mb-3">Sour soup with vegetables and meat</p>
+            <p class="text-[var(--color-accent)] font-bold">₱-</p>
+          </div>
+          <div class="menu-item bg-white/10 backdrop-blur rounded-[var(--radius-card)] p-5 text-white" data-category="mains">
+            <h3 class="font-heading text-xl font-semibold mb-2">Kare-Kare</h3>
+            <p class="text-white/70 text-sm mb-3">Oxtail stew with peanut sauce</p>
+            <p class="text-[var(--color-accent)] font-bold">₱-</p>
+          </div>
+          <div class="menu-item bg-white/10 backdrop-blur rounded-[var(--radius-card)] p-5 text-white" data-category="catering">
+            <h3 class="font-heading text-xl font-semibold mb-2">Birthday Package</h3>
+            <p class="text-white/70 text-sm mb-3">Complete catering for birthday celebrations</p>
+            <p class="text-[var(--color-accent)] font-bold">₱-</p>
+          </div>
+          <div class="menu-item bg-white/10 backdrop-blur rounded-[var(--radius-card)] p-5 text-white" data-category="catering">
+            <h3 class="font-heading text-xl font-semibold mb-2">Wedding Package</h3>
+            <p class="text-white/70 text-sm mb-3">Elegant catering for wedding receptions</p>
+            <p class="text-[var(--color-accent)] font-bold">₱-</p>
+          </div>
+          <div class="menu-item bg-white/10 backdrop-blur rounded-[var(--radius-card)] p-5 text-white" data-category="desserts">
+            <h3 class="font-heading text-xl font-semibold mb-2">Leche Flan</h3>
+            <p class="text-white/70 text-sm mb-3">Classic Filipino caramel custard</p>
+            <p class="text-[var(--color-accent)] font-bold">₱-</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-20 md:py-28 px-4 bg-[var(--color-light)]">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <p class="font-accent text-[var(--color-accent)] text-xl mb-2">Gallery</p>
+          <h2 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-dark)]">Our Food & Ambiance</h2>
+        </div>
+        <div class="columns-2 md:columns-3 gap-3 max-w-6xl mx-auto">
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden group relative cursor-pointer">
+            <img src="images/gallery/01.jpg" alt="Filipino dish at Nanz Restaurant" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/30 transition-all"></div>
+          </div>
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden group relative cursor-pointer">
+            <img src="images/gallery/02.jpg" alt="Restaurant interior at Nanz" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/30 transition-all"></div>
+          </div>
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden group relative cursor-pointer">
+            <img src="images/gallery/03.jpg" alt="Catering setup by Nanz" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/30 transition-all"></div>
+          </div>
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden group relative cursor-pointer">
+            <img src="images/gallery/04.jpg" alt="Delicious Filipino cuisine" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/30 transition-all"></div>
+          </div>
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden group relative cursor-pointer">
+            <img src="images/gallery/05.jpg" alt="Fresh ingredients at Nanz Restaurant" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/30 transition-all"></div>
+          </div>
+          <div class="break-inside-avoid mb-3 rounded-[var(--radius-card)] overflow-hidden group relative cursor-pointer">
+            <img src="images/gallery/06.jpg" alt="Happy customers at Nanz Restaurant" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-[var(--color-dark)]/0 group-hover:bg-[var(--color-dark)]/30 transition-all"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="py-20 md:py-28 px-4 bg-[var(--color-dark)]">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-white text-center mb-12">
+          <h2 class="font-heading text-3xl md:text-4xl font-bold mb-4">What Customers Say About Nanz Restaurant and Catering</h2>
+          <p class="font-body text-lg text-white/70">- rating based on - Google reviews</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-6 text-white">
+            <div class="text-[var(--color-accent)] text-lg mb-3">★★★★★</div>
+            <blockquote class="font-body italic text-white/80 mt-3 leading-relaxed">
+              <div class="h-4 bg-white/20 rounded animate-pulse mb-2"></div>
+              <div class="h-4 bg-white/20 rounded animate-pulse mb-2"></div>
+              <div class="h-4 bg-white/20 rounded animate-pulse w-3/4"></div>
+            </blockquote>
+            <cite class="font-body font-semibold text-white mt-4 block not-italic">— [Customer Name] ([Time ago])</cite>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-6 text-white">
+            <div class="text-[var(--color-accent)] text-lg mb-3">★★★★★</div>
+            <blockquote class="font-body italic text-white/80 mt-3 leading-relaxed">
+              <div class="h-4 bg-white/20 rounded animate-pulse mb-2"></div>
+              <div class="h-4 bg-white/20 rounded animate-pulse mb-2"></div>
+              <div class="h-4 bg-white/20 rounded animate-pulse w-3/4"></div>
+            </blockquote>
+            <cite class="font-body font-semibold text-white mt-4 block not-italic">— [Customer Name] ([Time ago])</cite>
+          </div>
+          <div class="bg-white/10 backdrop-blur-sm rounded-[var(--radius-card)] p-6 text-white">
+            <div class="text-[var(--color-accent)] text-lg mb-3">★★★★★</div>
+            <blockquote class="font-body italic text-white/80 mt-3 leading-relaxed">
+              <div class="h-4 bg-white/20 rounded animate-pulse mb-2"></div>
+              <div class="h-4 bg-white/20 rounded animate-pulse mb-2"></div>
+              <div class="h-4 bg-white/20 rounded animate-pulse w-3/4"></div>
+            </blockquote>
+            <cite class="font-body font-semibold text-white mt-4 block not-italic">— [Customer Name] ([Time ago])</cite>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <a href="https://www.google.com/maps/place/Nanz+Restaurant+and+Catering" target="_blank" rel="noopener" class="border border-white text-white px-6 py-3 rounded-[var(--radius-btn)] hover:bg-white hover:text-[var(--color-dark)] transition-colors">
+            Read More Reviews on Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 md:py-28 px-4 bg-[var(--color-light)]">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-dark)] mb-6">Contact Us</h2>
+          <address class="not-italic mb-6">
+            <p class="font-semibold text-[var(--color-dark)] mb-2">Address</p>
+            <p class="text-[var(--color-muted)]">Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon, San Jose del Monte, Bulacan, Philippines</p>
+          </address>
+          <div class="mb-6">
+            <p class="font-semibold text-[var(--color-dark)] mb-2">Phone</p>
+            <a href="tel:+639190086876" class="text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">+63 919 008 6876</a>
+          </div>
+          <div class="mb-6">
+            <p class="font-semibold text-[var(--color-dark)] mb-2">Hours</p>
+            <table class="text-[var(--color-muted)] text-sm">
+              <tr><td>Monday - Friday:</td><td class="pl-4">-</td></tr>
+              <tr><td>Saturday:</td><td class="pl-4">-</td></tr>
+              <tr><td>Sunday:</td><td class="pl-4">-</td></tr>
+            </table>
+          </div>
+          <div class="mb-6">
+            <p class="font-semibold text-[var(--color-dark)] mb-2">Social</p>
+            <a href="https://www.facebook.com/p/Nanz-Catering-100057659971026/" target="_blank" rel="noopener" class="text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">Facebook</a>
+          </div>
+          <a href="https://maps.app.goo.gl/tfMdueTSjva4caoCA" target="_blank" rel="noopener" class="bg-[var(--color-primary)] text-white px-6 py-3 rounded-[var(--radius-btn)] font-semibold hover:bg-[var(--color-secondary)] transition-colors inline-block">Get Directions</a>
+        </div>
+        <div class="rounded-[var(--radius-card)] overflow-hidden shadow h-80 lg:h-full">
+          <iframe 
+            title="Nanz Restaurant and Catering Location Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.123456789!2d121.035185!3d14.8057526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397af5bcabe8ef1:0x80756ee98d18e860!2sNanz+Restaurant+and+Catering!5e0!3m2!1sen!2sph!4v1716123456789"
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--color-dark)] text-white py-16 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="col-span-2 md:col-span-1">
+        <h3 class="font-heading text-2xl font-bold mb-4">Nanz</h3>
+        <p class="text-white/70 text-sm mb-4">Authentic Filipino cuisine and professional catering services in San Jose del Monte, Bulacan.</p>
+        <div class="flex gap-4">
+          <a href="https://www.facebook.com/p/Nanz-Catering-100057659971026/" target="_blank" rel="noopener" class="text-white/70 hover:text-white transition-colors">Facebook</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-white/70">
+          <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="#menu" class="hover:text-white transition-colors">Menu</a></li>
+          <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+          <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Hours</h4>
+        <ul class="space-y-2 text-sm text-white/70">
+          <li>Monday - Friday: -</li>
+          <li>Saturday: -</li>
+          <li>Sunday: -</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Contact</h4>
+        <ul class="space-y-2 text-sm text-white/70">
+          <li>Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon</li>
+          <li>San Jose del Monte, Bulacan</li>
+          <li><a href="tel:+639190086876" class="hover:text-white transition-colors">+63 919 008 6876</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/10 mt-12 pt-8 text-center font-body text-sm text-white/40">
+      © 2026 Nanz Restaurant and Catering · All rights reserved
+    </div>
+  </footer>
+
+  <!-- Inline JavaScript -->
+  <script>
+    // Preview banner close
+    const closeBannerBtn = document.getElementById('close-banner');
+    const previewBanner = document.getElementById('preview-banner');
+    const mainNav = document.getElementById('main-nav');
+    closeBannerBtn.addEventListener('click', () => {
+      previewBanner.classList.add('hidden');
+      mainNav.classList.remove('top-8');
+      mainNav.classList.add('top-0');
+    });
+
+    // Scroll-based navigation color switching
+    const nav = document.getElementById('main-nav');
+    const navLinks = nav.querySelectorAll('nav a:not(.bg-\\[var\\(--color-primary\\)\\])');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) {
+        nav.classList.remove('bg-transparent');
+        nav.classList.add('bg-white/90', 'backdrop-blur-sm', 'shadow-sm', 'border-b', 'border-[var(--color-muted)]/20');
+        navLinks.forEach(link => {
+          link.classList.remove('text-white');
+          link.classList.add('text-[var(--color-primary)]');
+        });
+      } else {
+        nav.classList.add('bg-transparent');
+        nav.classList.remove('bg-white/90', 'backdrop-blur-sm', 'shadow-sm', 'border-b', 'border-[var(--color-muted)]/20');
+        navLinks.forEach(link => {
+          link.classList.remove('text-[var(--color-primary)]');
+          link.classList.add('text-white');
+        });
+      }
+    });
+
+    // Menu tab filtering (for Layout 1 — Immersive Visual)
+    const menuTabs = document.querySelectorAll('.menu-tab');
+    const menuItems = document.querySelectorAll('.menu-item');
+
+    menuTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Update active tab styling
+        menuTabs.forEach(t => {
+          t.classList.remove('bg-[var(--color-primary)]');
+          t.classList.add('bg-white/10');
+        });
+        tab.classList.remove('bg-white/10');
+        tab.classList.add('bg-[var(--color-primary)]');
+
+        // Filter menu items
+        const category = tab.getAttribute('data-tab');
+        menuItems.forEach(item => {
+          if (category === 'all' || item.getAttribute('data-category') === category) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+  <!-- LocalBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Nanz Restaurant and Catering",
+    "description": "Authentic Filipino cuisine and professional catering services in San Jose del Monte, Bulacan",
+    "url": "https://nanz-restaurant-and-catering.vikaph.com",
+    "telephone": "+63 919 008 6876",
+    "priceRange": "$$",
+    "image": ["https://nanz-restaurant-and-catering.vikaph.com/images/hero.jpg"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Blk. 17 Lot 50 North Gate Sarmiento Homes, Muzon",
+      "addressLocality": "San Jose del Monte",
+      "addressRegion": "Bulacan",
+      "postalCode": "3023",
+      "addressCountry": "PH"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 14.8057526, "longitude": 121.035185 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "00:00", "closes": "00:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "00:00", "closes": "00:00" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "-", "reviewCount": "-", "bestRating": "5" },
+    "sameAs": ["https://www.facebook.com/p/Nanz-Catering-100057659971026/", "https://maps.app.goo.gl/tfMdueTSjva4caoCA"]
+  }
+  </script>
+
+</body>
+</html>
